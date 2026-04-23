@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 class Node
 {
@@ -21,6 +22,13 @@ class LinkedList
 
      void addNode()
      {
-        
+        int nim;
+        cout << "/nMasukkan Nomor Mahasiswa : ";
+        cin >> nim;
+
+        Node *nodeBaru = new Node;
+        nodeBaru->noMhs = nim;
+
+
      }
 };
