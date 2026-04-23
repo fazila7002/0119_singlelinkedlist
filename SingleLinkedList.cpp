@@ -11,5 +11,8 @@ public:
 class LinkedList
 {
      Node *START;
+
+
+     public:
      
 };
